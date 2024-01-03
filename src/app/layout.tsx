@@ -1,13 +1,11 @@
 import Header from '@/components/Header';
 import './globals.css';
-import { Inter } from 'next/font/google';
 import siteMetadata from '@/data/siteMetadata';
 
-const inter = Inter({ subsets: ['latin'] });
 
 export const metadata = {
   title: siteMetadata.title,
-  description: 'Medium like app',
+  description: siteMetadata.description,
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {

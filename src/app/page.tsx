@@ -1,4 +1,3 @@
-import Image from 'next/image'
 import type { Post as TPost } from "@/types/post";
 import Post from "@/components/blog/Post";
 
